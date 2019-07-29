@@ -13,7 +13,7 @@ package openfigi
 // For V2: securityType2 is required when idType is BASE_TICKER or ID_EXCH_SYMBOL.  expiration is required when securityType2 is Option or Warrant.  maturity is required when securityType2 is Pool.
 type MappingJob struct {
 	IdType string `json:"idType"`
-	IdValue OneOfstringinteger `json:"idValue"`
+	IdValue string `json:"idValue"`
 	ExchCode *string `json:"exchCode,omitempty"`
 	MicCode *string `json:"micCode,omitempty"`
 	Currency *string `json:"currency,omitempty"`
