@@ -10,6 +10,7 @@
 
 package openfigi
 
+// InlineResponse200 struct for InlineResponse200
 type InlineResponse200 struct {
 	Values []string `json:"values,omitempty"`
 }

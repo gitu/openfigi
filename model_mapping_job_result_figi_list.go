@@ -10,6 +10,7 @@
 
 package openfigi
 
+// MappingJobResultFigiList struct for MappingJobResultFigiList
 type MappingJobResultFigiList struct {
 	Data []FigiResult `json:"data,omitempty"`
 }

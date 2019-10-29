@@ -19,6 +19,7 @@ Name | Type | Description | Notes
 **Coupon** | Pointer to **[]float32** | At least one entry should be non-null. | [optional] 
 **Expiration** | Pointer to **[]string** | At least one entry should be non-null. | [optional] 
 **Maturity** | Pointer to **[]string** | At least one entry should be non-null. | [optional] 
+**StateCode** | Pointer to **string** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

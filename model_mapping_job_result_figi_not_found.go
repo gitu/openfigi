@@ -10,6 +10,7 @@
 
 package openfigi
 
+// MappingJobResultFigiNotFound struct for MappingJobResultFigiNotFound
 type MappingJobResultFigiNotFound struct {
 	Error string `json:"error,omitempty"`
 }

@@ -10,7 +10,8 @@
 
 package openfigi
 
+// MappingJobResult struct for MappingJobResult
 type MappingJobResult struct {
-	Data []FigiResult `json:"data,omitempty"`
-	Error string `json:"error,omitempty"`
+	Data  []FigiResult `json:"data,omitempty"`
+	Error string       `json:"error,omitempty"`
 }
